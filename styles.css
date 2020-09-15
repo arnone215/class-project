@@ -27,6 +27,7 @@ h1 {
     
 nav {
     float: right;
+    
 }
 
 header li {
@@ -50,6 +51,7 @@ main img{
 }
 
 section {
+    background-color: red;
     outline: solid yellow;
     width: 49.4%;
     text-align: center;
@@ -59,6 +61,7 @@ section {
 }
 
 article {
+    background-color: violet;
     width: 100%;
     display: inline-block;
 }
@@ -96,4 +99,7 @@ footer p {
 
 #hello {
     
+    background-color: blue;
+    width: 100%;
+    display: inline-block;
 }
