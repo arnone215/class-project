@@ -1,16 +1,18 @@
 /* header */
 
 body {
-    color:black;
-    background-color:white;
-    font-family: 'Courier New', Courier, monospace;
-    margin:  auto;
-    width: 960px;
-    ;
+    color: black;
+    background-color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 50px 100px 200px;
+    width: 700px;
+    outline: solid black;
 }
 
 header {
-     height: 200px
+    outline: solid red; 
+    
+    
 
 }
 
@@ -29,29 +31,32 @@ nav {
 header li {
     display:inline-block;
     width: 100px;
-    background-color: green;
+    background-color: grey;
     padding: 5px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 15px;
     margin: 5px;
-    border: 1px solid purple;
-    color: white;
+    border: 1px solid black ;
+    color: black;
 
 }
 
 /* main */
 
 main img{
-    width: 300px;
+    width: 100%;
+    
 }
 
 section {
-    width: 940px;
+    outline: solid yellow;
+    width: 49.1%;
     text-align: center;
+    display: inline-block;
 }
 
 article {
-    width: 300px;
+    width: 100%;
     display: inline-block;
 }
 
@@ -62,7 +67,7 @@ footer {
 }
 
 footer ul {
-    width: 100px;
+    width: 100%;
     display: inline-block;
     margin: 5px;
 
@@ -71,13 +76,14 @@ footer ul {
 footer li {
     display:inline-block;
     width: 100px;
-    background-color: green;
+    background-color: whitesmoke;
     padding: 5px;
     text-align: center;
     border-radius: 25px;
     margin: 5px;
-    border: 1px solid purple;
-    color: white;
+    border: 1px solid black;
+    color: black;
+    outline:solid blue;
 }
 
 footer p {
