@@ -22,6 +22,7 @@ header img {
 
 h1 {
     text-align: center;
+    display: inline-block;
 }
     
 nav {
@@ -50,9 +51,11 @@ main img{
 
 section {
     outline: solid yellow;
-    width: 49.1%;
+    width: 49.4%;
     text-align: center;
     display: inline-block;
+    
+    
 }
 
 article {
@@ -89,4 +92,8 @@ footer li {
 footer p {
     float: right;
 
+}
+
+#hello {
+    
 }
