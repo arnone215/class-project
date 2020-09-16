@@ -2,6 +2,12 @@
 
 body {
     color: black;
+    /* background-image: linear-gradient(rgba(black) rgba(black)) , url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/12191031_10102124091470733_8345342319854138170_n.jpg?_nc_cat=108&_nc_sid=13bebb&_nc_ohc=tgMFv_MLh8sAX-Tgg2t&_nc_ht=scontent-sea1-1.xx&oh=1c8691893ab6e4795b6bb09709ac224d&oe=5F85CA72) ;
+    size: cover;
+    position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;  */
+
     background-color: lightslategray;
     font-family: 'Times New Roman', Times, serif;
     margin: 10px 50px 100px 200px;
