@@ -3,10 +3,10 @@
 // helper function
 function getProduct() {
 var response = prompt('Would you prefer hiking at Mt. Rainier or Mt. Hood?');
-var message;
+var item;
 
 while(response !='Mt. Rainier' && response != 'Mt. Hood') {
-item = prompt('Would you rather hike at Mt. Rainier or Mt. Hood? SAY MT. RAINIER!');
+    response = prompt('Would you rather hike at Mt. Rainier or Mt. Hood? SAY MT. RAINIER!');
 }
 
 if (response === 'Mt. Rainier') {
@@ -19,8 +19,8 @@ return item;
 }
 // helper function
 function getCount() {
-    var getCount = prompt('Great! How many times have you been?');
-    while(isNan(count) || count === '') {
+    var count = prompt('Great! How many times have you been?');
+    while(isNaN(count) || count === '') {
         count = prompt('Please enter a number. How many times have you been?');
     }
     return count;
