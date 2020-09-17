@@ -2,20 +2,20 @@
 
 // helper function
 function getProduct() {
-var response = prompt('Would you prefer hiking at Mt. Rainier or Mt. Hood?');
-var item;
+    var response = prompt('Would you prefer hiking at Mt. Rainier or Mt. Hood?');
+    var item;
 
-while(response !='Mt. Rainier' && response != 'Mt. Hood') {
+    while(response !='Mt. Rainier' && response != 'Mt. Hood') {
     response = prompt('Would you rather hike at Mt. Rainier or Mt. Hood? SAY MT. RAINIER!');
-}
+    }
 
-if (response === 'Mt. Rainier') {
+    if (response === 'Mt. Rainier') {
     item = '<img src="images/bora-bora.jpg">';
-} else if (response === 'Mt. Hood') {
+    } else if (response === 'Mt. Hood') {
     item = '<img src="images/mtshukasan.jpg">';
-} 
+    } 
 
-return item;
+    return item;
 }
 // helper function
 function getCount() {

@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;  */
 
-    background-color: lightslategray;
+    background-color: lightgray;
     font-family: 'Times New Roman', Times, serif;
     margin: 10px 50px 100px 200px;
     width: 700px;
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    outline: solid red; 
+    
     
     
 
@@ -33,13 +33,14 @@ h1 {
     
 nav {
     float: right;
+    outline: solid black;
     
 }
 
 header li {
     display:inline-block;
     width: 100px;
-    background-color: grey;
+    background-color: lightgray;
     padding: 5px;
     text-align: center;
     border-radius: 15px;
@@ -57,9 +58,9 @@ main img{
 }
 
 section {
-    background-color: red;
-    outline: solid yellow;
-    width: 49.4%;
+    background-color:;
+    outline: solid black;
+    width: 49%;
     text-align: center;
     display: inline-block;
     
@@ -67,7 +68,7 @@ section {
 }
 
 article {
-    background-color: violet;
+    background-color: darkgreen;
     width: 100%;
     display: inline-block;
 }
@@ -95,7 +96,7 @@ footer li {
     margin: 5px;
     border: 1px solid black;
     color: black;
-    outline:solid blue;
+    outline:solid black;
 }
 
 footer p {
@@ -105,7 +106,7 @@ footer p {
 
 #hello {
     
-    background-color: blue;
+   
     width: 100%;
     display: inline-block;
 }
