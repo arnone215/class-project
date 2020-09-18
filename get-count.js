@@ -1,6 +1,7 @@
+'use strict'
 function getCount() {
-    var getCount = prompt('Great! How many times have you been?');
-    while(isNan(count) || count === '') {
+    var count = prompt('Great! How many times have you been?');
+    while(isNaN(count) || count === '') {
         count = prompt('Please enter a number. How many times have you been?');
     }
     
